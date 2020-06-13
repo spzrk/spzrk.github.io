@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	background-color: rgba(20, 25, 30);
+	font-family: 'Inter', sans-serif;
+}
+
+.socials {
+	background-color: rgb(20, 25, 30);
+	padding: 10px;
+	text-align: center;
+	padding-left: 15px;
+	text-decoration: none;
+	word-spacing: 20px;
+}
+
+.dc1 {
+	display: inline;
+	color: white;
+	font-family: Arial;
+	background-color: #738ADB;
+	padding: 15px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.fa {
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+.fa-google {
+	background-color: #dd4b39;
+}
+
+.fa-twitter {
+	background-color: #55ACEE;
+}
+
+.rights {
+	background-color: rgb(20, 25, 30);
+	padding: 5px;
+	text-align: center;
+	color: gray;
+}
+
+
+.currentpage {
+	background-color: rgb(230, 230, 230);
+}
+
+.bar {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(90, 90, 95);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-family: 'Inter' sans-serif;
+}
+
+.otherpages:hover {
+	background-color: rgb(140, 140, 140);
+}
+
+.header {
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 50px;
+	background-image: url("BUILDS/img3.jpg");
+	background-position: center;
+	height: 160px;
+	color: white;
+}
+
+.grid {
+	display:grid;
+	grid-template-columns: repeat(4, 300px);
+	justify-content: center;
+	align-content: center;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	height: 100%;
+	z-index: 1;
+	color: white;
+}
+
+.grid img {
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+	cursor: pointer;
+	border: 5px solid rgba(15, 15, 15);
+	z-index: 1;
+}
+
+h3.grid {
+	color: white;
+}
+
+#lightboxbackground {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
+}
+
+#lightbox {
+	z-index: 105;
+	width: 100%;
+	height: 100vh;
+	top: 15%;
+	left: 0;
+	position: fixed;
+	display: none;
+	text-align: center;
+}
+
+#lightbox > img {
+	z-index: 110;
+	width: 130vh;
+}
+
+#lightbox.active {
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+#lightboxbackground.active{
+	display: block;
+}
