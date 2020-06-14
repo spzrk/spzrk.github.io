@@ -19,7 +19,7 @@ body {
 	font-family: Arial;
 	background-color: #738ADB;
 	padding: 15px 20px;
-	border-radius: 20px;
+	border-radius: 22px;
 	font-weight: bold;
 }
 
@@ -27,7 +27,8 @@ body {
 	color: white;
 	padding: 15px;
 	text-decoration: none;
-	border-radius: 20px;
+	border-radius: 22px;
+	width: 14px;
 }
 
 .fa-google {
@@ -47,13 +48,14 @@ body {
 
 
 .currentpage {
-	background-color: rgb(230, 230, 230);
+	background-color: rgb(60, 70, 80);
 }
 
 .bar {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: rgb(90, 90, 95);
+	background-color: rgb(50, 55, 60);
+	color: white;
 }
 
 li {
