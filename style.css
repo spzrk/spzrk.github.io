@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	background-color: rgb(45, 45, 45);
+}
+
+.spzrk {
+	margin: 0%;
+	font-size: 4vw;
+	text-align: center;
+	color: white;
+	font-family: 'jost';
+	background-color: rgb(20,20,20);
+}
+
+.main {
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: 'jost';
+	max-height: 100%;
+}
+.pf {
+	font-size: 8vw;
+}
+.soon{
+	font-size: 12vw;
+}
